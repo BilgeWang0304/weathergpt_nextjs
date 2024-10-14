@@ -41,7 +41,7 @@ export default async function WeatherPage({ params }: { params: { location: stri
           </div>
           <div className="flex flex-col items-center mr-48">
             <div className="flex items-center justify-center w-24 h-24 bg-gray-600 rounded-full mb-6 shadow-lg">
-              <Image src={weatherIcon} className="w-16 h-16" alt={`Weather icon for ${location}`} />
+              <Image src={weatherIcon} width={96} height={96} alt={`Weather icon for ${location}`} />
             </div>
             <h3 className="text-xl font-medium text-gray-400">Current Temperature</h3>
             <p className="text-4xl font-bold">

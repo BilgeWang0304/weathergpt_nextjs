@@ -12,3 +12,4 @@ export async function fetchWeatherData(location: string) {
     return null;
   }
 }
+
