@@ -56,8 +56,6 @@ export default async function WeatherPage({ params }: { params: { location: stri
             </p>
           </div>
         </div>
-
-        {/* Humidity Information */}
         <div className="mt-8">
           <h3 className="text-xl font-medium text-gray-400">Humidity</h3>
           <p className="text-4xl font-bold">{humidity}%</p>

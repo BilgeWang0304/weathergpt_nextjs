@@ -10,16 +10,16 @@ export default function Layout({ children }: { children: ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="bg-gray-100 min-h-screen flex flex-col">
-        {/* Header */}
+
         <header className="bg-white shadow-md p-4">
           <div className="container mx-auto">
             <h1 className="text-3xl font-bold">WeatherGPT</h1>
             <p className="text-gray-600">Powered by Next.js and Vercel</p>
           </div>
         </header>
-        {/* Main Content */}
+
         <main className="flex-grow flex flex-col items-center justify-center w-full">{children}</main>
-        {/* Footer */}
+
         <footer className="bg-white shadow-inner p-4 mt-auto text-center">
           <div className="container mx-auto">
             <p className="text-gray-500 text-sm">

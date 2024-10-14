@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import OpenAI from 'openai';
-import { fetchWeatherData } from '../utils/util'; // Import the utility function
+import { fetchWeatherData } from '../utils/util'; 
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY, // Ensure the OpenAI API key is set in .env.local
+  apiKey: process.env.OPENAI_API_KEY, 
 });
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -14,7 +14,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    // Fetch the weather data using the utility function
     const weatherData = await fetchWeatherData(location);
 
     if (!prompt) {
