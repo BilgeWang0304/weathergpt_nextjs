@@ -1,13 +1,5 @@
 import { fetchWeatherData } from '../utils/util';
-import { GetServerSideProps } from 'next';
 
-interface WeatherProps {
-  location: string;
-  temperatureC: number;
-  temperatureF: number;
-  humidity: number;
-  weatherIcon: string;
-}
 
 const capitalizeFirstLetter = (str: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
