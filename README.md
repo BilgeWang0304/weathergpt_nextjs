@@ -4,7 +4,11 @@ Thiis is a ChatGPT Plugin With Nextjs, Vercel and Weatherapi to search current w
 
 See my demo at https://weathergpt-nextjs-9q49.vercel.app/ 
 
-https://github.com/user-attachments/assets/7bad5aea-7499-4ffa-94c2-54b97170ca83
+
+
+https://github.com/user-attachments/assets/b9f8d686-56f5-444d-92c1-2b478f98aa15
+
+
 
 ## Deploy your own
 
