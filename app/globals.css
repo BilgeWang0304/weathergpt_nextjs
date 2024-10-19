@@ -599,3 +599,19 @@ nav:after {
   transform: translateX(-50%);
   position: relative;
 }
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* Zoom in */
+  }
+  100% {
+    transform: scale(1); /* Zoom out */
+  }
+}
+
+.zoom-effect {
+  animation: zoomInOut 2s infinite ease-in-out;
+}
