@@ -28,8 +28,8 @@ export default async function WeatherPage({ params }: { params: { location: stri
   return (
     <div className="flex items-center justify-center min-h-screen w-full">
       <main className="text-center">
-        <h1 className="text-7xl font-bold mb-6 text-black">WeatherGPT</h1>
-        <p className="text-3xl mb-12 text-gray-400">Weather information for {capitalizeFirstLetter(location)}</p>
+        <h1 className="text-7xl font-bold mb-6 gradient-text">WeatherGPT</h1>
+        <p className="text-3xl mb-12 font-bold reverse-gradient-tex">Weather information for {capitalizeFirstLetter(location)}</p>
 
         <div className="flex justify-center items-center space-x-6 mb-4">
           <div className="flex flex-col items-center mr-36">
